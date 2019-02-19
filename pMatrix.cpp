@@ -71,12 +71,12 @@ int main()
 				//if (k != n-i-1) printf("%5i", A[k][i]);					           // - 02 
 				//if (k!=i && k != n - i - 1) printf("%5i", A[k][i]);		           // - 03 
 				//if (i%2!=0) printf("%5i", A[k][i]);						           // - 04 
-			  //if (i % 2 == 0) printf("%5i", A[k][i]);					           // - 05 
+			        //if (i % 2 == 0) printf("%5i", A[k][i]);					           // - 05 
 				//if (k % 2 != 0) printf("%5i", A[k][i]);					           // - 06 
 				//if (k % 2 == 0) printf("%5i", A[k][i]);					           // - 07 
 				//if (i> n/2) printf("%5i", A[k][i]);						           // - 09 
 				//if (i< n / 2) printf("%5i", A[k][i]);						           // - 10 
-			  //if (k> n / 2) printf("%5i", A[k][i]);						           // - 11 
+			        //if (k> n / 2) printf("%5i", A[k][i]);						           // - 11 
 				//if (k< n / 2) printf("%5i", A[k][i]);						           // - 12 
 				//if (k> n-i-1) printf("%5i", A[k][i]);						           // - 13 
 				//if (k< n-i-1) printf("%5i", A[k][i]);					               // - 14 
@@ -88,7 +88,7 @@ int main()
 				//if ((k< n-i-1) || (k< i)) printf("%5i", A[k][i]);	                   // - 20
 				//if ((k<i||k>n-i-1) && (k>i || k<n-i-1)) printf("%5i", A[k][i]);      // - 21 
 				//if ((k>n-i-1 || k>i) && (k<n-i-1 || k<i)) printf("%5i", A[k][i]);    // - 22 
-        //if ((i>n/2) || (k>n/2)) printf("%5i", A[k][i]);	                   // - 23
+                                //if ((i>n/2) || (k>n/2)) printf("%5i", A[k][i]);	                   // - 23
 				//if ((i<n/2) || (k<n/2)) printf("%5i", A[k][i]);	                   // - 24
 				//if ((k>n/2) || (i<n/2)) printf("%5i", A[k][i]);	                   // - 25
 				//if ((i>n/2) || (k<n/2)) printf("%5i", A[k][i]);	                   // - 26
@@ -104,7 +104,7 @@ int main()
 				//if ( (k> n/2) && (k > n-i-1)) printf("%5i", A[k][i]);	               // - 36
 				//if ((k>n-i-1) || (k<i)  && (i>n/2)) printf("%5i", A[k][i]);	       // - 37
 				//if ((i > n / 2) && (k < i)) printf("%5i", A[k][i]);	               // - 38
-        //if ((i>n/2) && (k>n-i-1) || (k<i)) printf("%5i", A[k][i]);	       // - 39
+                                //if ((i>n/2) && (k>n-i-1) || (k<i)) printf("%5i", A[k][i]);	       // - 39
 				//if ((i > n / 2) && (k > n - i - 1)) printf("%5i", A[k][i]);	       // - 40
 				//if ((k < n - i - 1) && (k > i)) printf("%5i", A[k][i]);	           // - 41
 				//if ((k < n - i - 1) && (k > i)) printf("%5i", A[k][i]);	           // - 42
@@ -113,7 +113,7 @@ int main()
 				//if ((k > n - i - 1) && (k > i)) printf("%5i", A[k][i]);	           // - 45
 				//if ((k>n/2+i||k<n/2-i-1||i>=n/2)&&(i>=n/2||k>=n/2)) printf("%5i", A[k][i]);       // - 46 
 				if (((i>k+n/2||i<n/2-k-1)||k>=n/2)&&(i>=n/2||k>=n/2)) printf("%5i", A[k][i]);  // - 47
-        else                                                       
+                                else                                                       
  				{
 					printf("    *");
  					B[p] = A[k][i];
@@ -151,7 +151,7 @@ int main()
 
 				printf("\n\n\tдодатних: %i", poz);
 		 		printf("\n\tвiд'ємних: %i", neg);
-	 		  printf("\n\tсума додатних: %i", sum);
+	 		        printf("\n\tсума додатних: %i", sum);
 				printf("\n\tдобуток вiд'ємних: %i", dob);
 		 		printf("\n\tнайбiльший: %i", max);
 				printf("\n\tнайменший: %i", min);
